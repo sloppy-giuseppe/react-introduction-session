@@ -1,7 +1,7 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './app';
 
-var Heading = React.createElement('h1', null, 'Hello from React!');
 
-ReactDOM.render(Heading, document.getElementById('root'));
+ReactDOM.render(<App title="Hello from react"/>, document.getElementById('root'));
 
